@@ -5,5 +5,6 @@ import xlwings as xw
 
 def main():
     wb = xw.Book.caller()
-    sheet = wb.sheets('Sheet1')
+    sheet = wb.sheets('Tabelle1')
     sheet["A1"].value = "Called from VBA"
+    sheet.range("A2").value = "seconda prova"

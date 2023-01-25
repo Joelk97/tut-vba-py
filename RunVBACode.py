@@ -3,8 +3,8 @@
 import xlwings as xw
 
 # Open the workbook - change the path as applicable
-wk = xw.books.open(r'c:\sandbox\vbacode.xlsm')
-# Get the macro
+wk = xw.books.open(r'C:\Users\joel.kuhl\Documents\tutorials\tut-vba-py\VBA called from Python.xlsm')
+# Get the macror'C:\Users\joel.kuhl\Documents\tutorials\tut-vba-py\marks.xlsx'
 displaytext = wk.macro('module1.DisplayText')
 
 # Call the macro
